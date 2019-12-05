@@ -13,16 +13,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:textStyle="bold"
-        android:text="Apa Itu Depresi?" />
+        android:text="APA ITU DEPRESI?"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView5"
-        android:paddingTop="30dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:fontFamily="casual"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/pengertian" />
+        android:fontFamily="@font/lato"
+        android:lineSpacingExtra="8sp"
+        android:paddingLeft="10dp"
+        android:paddingTop="30dp"
+        android:paddingRight="10dp"
+        android:text="@string/pengertian"
+        android:textAlignment="inherit"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/custom_button"
+        android:text="Tutup"
+        android:textColor="#F2F1F5" />
 </LinearLayout>
