@@ -1,5 +1,5 @@
 <resources>
-<string name="app_name">project_tubes_kelompok_delapan</string>
-<string name="pengertian">Depresi adalah suatu kondisi medis berupa perasaan sedih yang berdampak negatif terhadap pikiran, tindakan, perasaan, dan kesehatan mental seseorang [1]. Kondisi depresi adalah reaksi normal sementara terhadap peristiwa-peristiwa hidup seperti kehilangan orang tercinta. Depresi juga dapat merupakan gejala dari sebuah penyakit fisik dan efek samping dari penggunaan obat dan perawatan medis tertentu. Dalam kaitannya dengan gangguan mental lain, depresi dapat juga menjadi gejala dari gangguan kejiwaan seperti Gangguan depresi mayor dan distimia.</string>
-<string name="start_text">Over the last 2 weeks, how often have you been bothered by any of the following problems?</string>
+    <string name="app_name">project_tubes_kelompok_delapan</string>
+    <string name="pengertian">Depresi adalah suatu kondisi medis berupa perasaan sedih yang berdampak negatif terhadap pikiran, tindakan, perasaan, dan kesehatan mental seseorang [1]. Kondisi depresi adalah reaksi normal sementara terhadap peristiwa-peristiwa hidup seperti kehilangan orang tercinta. Depresi juga dapat merupakan gejala dari sebuah penyakit fisik dan efek samping dari penggunaan obat dan perawatan medis tertentu. Dalam kaitannya dengan gangguan mental lain, depresi dapat juga menjadi gejala dari gangguan kejiwaan seperti Gangguan depresi mayor dan distimia.</string>
+    <string name="start_text">Dalam 2 minggu terakhir,seberapa sering kamu mengalami beberapa masalah ini ?</string>
 </resources>
