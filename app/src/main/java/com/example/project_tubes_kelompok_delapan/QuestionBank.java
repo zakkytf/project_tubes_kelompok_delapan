@@ -3,23 +3,23 @@ package com.example.project_tubes_kelompok_delapan;
 public class QuestionBank {
 
     private String textQuestions [] = {
-            "1. Apa warna bendera indonesia?",
-            "2. siapa presiden pertama indonesia?",
-            "3. siapa prseiden indonesia sekarang?",
-            "4. tahun berapa indonesia merdeka",
-            "5. Tahun berapa sekarang ?"
+            "1. Sedikit minat atau kesenangan dalam melakukan sesuatu",
+            "2. Merasa tidak berguna",
+            "3. Susah tidur atau tidur terlalu banyak",
+            "4. Merasa Capek dan tidak mempunyai energi",
+            "5. Pola makan yang buruk atau makan berlebihan"
     };
 
     // array of multiple choices for each question
     private String multipleChoice [][] = {
-            {"Merah - Putih", "putih merah", "kuning", "hijau"},
-            {"Soeharto", "Jokowi", "SBY", "Ir Soekarno"},
-            {"Megawati", "Prabowo", "Bj Habibi", "Jokowi"},
-            {"1999", "2018", "1945", "2000"},
-            {"1999", "2000", "2010", "2018"}
+            {"Tidak sama sekali","Beberapa hari","Lebih dari setengah hari","Hampir setiap hari"},
+            {"Tidak sama sekali","Beberapa hari","Lebih dari setengah hari","Hampir setiap hari"},
+            {"Tidak sama sekali","Beberapa hari","Lebih dari setengah hari","Hampir setiap hari"},
+            {"Tidak sama sekali","Beberapa hari","Lebih dari setengah hari","Hampir setiap hari"},
+            {"Tidak sama sekali","Beberapa hari","Lebih dari setengah hari","Hampir setiap hari"}
     };
 
-    private String mCorrectAnswers[] = {"Merah - Putih", "Ir Soekarno", "Jokowi", "1945", "2018"};
+    private String mCorrectAnswers[] = {"Tidak sama sekali","Beberapa hari","Lebih dari setengah hari","Hampir setiap hari","Tidak sama sekali"};
 
     public int getLength(){
         return textQuestions.length;

@@ -11,6 +11,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".result"></activity>
         <activity android:name=".start" />
+        <activity android:name=".HighestScoreActivity"/>
         <activity android:name=".QuizActivity" />
         <activity android:name=".about" />
         <activity android:name=".SplashActivity">

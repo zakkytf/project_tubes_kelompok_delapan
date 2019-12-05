@@ -8,46 +8,91 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
-    tools:context="com.example.">
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:text="pertanyaan"
+        android:layout_height="wrap_content"
+        android:text="Question to answer"
         android:textSize="20sp"
-        android:padding="8dp"
-        android:layout_marginBottom="40dp"
+        android:padding="4dp"
+        android:layout_marginBottom="10dp"
         android:id="@+id/question"/>
 
-    <RadioGroup
+
+
+    <Button
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:onClick="onClick"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice1"/>
 
-        <RadioButton
-            android:id="@+id/radioButton3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Tidak sama sekali" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:onClick="onClick"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice2"/>
 
-        <RadioButton
-            android:id="@+id/radioButton4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Beberapa hari" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:onClick="onClick"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice3"/>
 
-        <RadioButton
-            android:id="@+id/radioButton5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Lebih dari setengah hari" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice4"
+        android:onClick="onClick" />
 
-        <RadioButton
-            android:id="@+id/radioButton6"
-            android:layout_width="match_parent"
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#d4390a"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:id="@+id/score_text"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hampir setiap hari" />
-    </RadioGroup>
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:text="Score" />
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/score_text"
+            android:layout_centerHorizontal="true"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:text="0/0" />
+    </RelativeLayout>
+
 
 
 </LinearLayout>
